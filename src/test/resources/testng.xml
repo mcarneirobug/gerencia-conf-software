@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "NotaTeste">
+    <test name = "NotaTeste">
+        <parameter name="valorNota" value="10"/>
+        <parameter name="answer" value="A"/>
+        <parameter name="valorNota" value="7"/>
+        <parameter name="answer" value="B"/>
+        <parameter name="valorNota" value="5"/>
+        <parameter name="answer" value="R"/>
+
+        <classes>
+            <class name = "br.com.matheus.model.domain.TesteNGTest"/>
+        </classes>
+    </test>
+</suite>

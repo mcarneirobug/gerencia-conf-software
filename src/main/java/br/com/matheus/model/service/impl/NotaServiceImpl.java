@@ -36,7 +36,7 @@ public class NotaServiceImpl implements NotaService {
         } else if (nota >= 9){
             answer += 'A';
         } else {
-            throw new NotaInvalidaException("Nota Inválida: " + nota);
+            throw new NotaInvalidaException(NOTA_INVALIDA.getDescription() + nota);
         }
         return answer;
     }
